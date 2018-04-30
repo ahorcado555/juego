@@ -21,10 +21,15 @@ class TriquiSpec extends ObjectBehavior
     {
     $this->setJugada(2,3)->shouldReturn('Turno J1');
     }
-
+    function it_j1_marca_posicion5_y_j2_marca_posicion3()
+    {
+    $this->setJugada(1,5);
+    $this->setJugada(2,3)->shouldReturn('Turno J1');
+    }
     function it_j1yj2_marca_posicion_5()
     {
     $this->setJugada(1,5);
     $this->setJugada(2,5)->shouldReturn('Posicion ya Jugada, marque otra posicion');
     }
+
 }
