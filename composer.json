@@ -1,7 +1,11 @@
 {
     "require-dev": {
-        "phpspec/phpspec": "^4.3",
-        "behat/behat": "^3.4"
+        "phpspec/phpspec": "^4.3"
     },
-    "autoload": {"psr-0": {"": "src"}}
+    "autoload": {"psr-0": {"": "src"}},
+    "require": {
+        "behat/behat": "^3.4",
+        "behat/mink-extension": "^2.3",
+        "behat/mink-goutte-driver": "^1.2"
+    }
 }

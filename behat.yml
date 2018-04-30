@@ -1,0 +1,8 @@
+# behat.yml
+default:
+    extensions:
+        Behat\MinkExtension:
+            base_url:  'http://localhost/prj1/juego/index.php'
+            goutte: ~
+    translation:
+        locale: es
