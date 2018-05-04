@@ -18,7 +18,11 @@ Scenario: Ver Tablero de Juego
 
 Scenario: Ver boton de confirmar
      Given I am on "/"
-     Then I should see "submit"
+     Then I should see "Confirmar" in the "button" element
+
+Scenario: Ver Jugar
+     Given I am on "/"
+     Then I should see "Jugar"
 
 
 

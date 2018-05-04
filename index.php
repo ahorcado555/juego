@@ -28,6 +28,7 @@
     <body>
             <h2>Juego de Triqui</h2>
             <table>
+            <caption>Jugar</caption>
                 <tr>
                     <td><input type="text" name="1" size= 3></td>
                     <td><input type="text" name="2" size= 3></td>
@@ -44,6 +45,6 @@
                     <td><input type="text" name="9" size= 3></td>
                 </tr>
             </table>
-            <input type=submit  name= 'confirmar' value = "Confirmar" >
+            <button name= 'confirmar' >Confirmar</button>
     </body>
 </html>
